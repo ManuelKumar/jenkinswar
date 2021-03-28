@@ -2,6 +2,7 @@ node{
 
    def tomcatWeb = 'C:\\apache-tomcat-8.5.64\\webapps'
    def tomcatBin = 'C:\\apache-tomcat-8.5.64\\bin'
+   def CATATINA_HOME = 'C:\\apache-tomcat-8.5.64'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/ManuelKumar/jenkinswar.git'
